@@ -3,9 +3,17 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter how many number you want to add: ";
+    int i, n, total;
+
+    cout << "Enter the value upto which you want the series: ";
     cin >> n;
 
-    for (n=)
+    total = 0;
+
+    for (i=0; i<=n; i++)
+    {
+        total = total + i;
+    }
+    cout << "Total = " << total;
+    return 0;
 }
