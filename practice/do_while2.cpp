@@ -1,0 +1,12 @@
+// Print Hello World 5 time using do while
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i=10;
+    do
+    {
+        cout << "Hello World" << endl;
+    } while (i<=5);
+    return 0;
+}
