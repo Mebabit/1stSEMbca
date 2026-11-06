@@ -1,0 +1,29 @@
+//Patrameterise constructor
+#include <iostream>
+using namespace std;
+class rec
+{
+    public:
+        int len, br;
+
+        rec(int l, int b)
+        {
+            len = l;
+            br = b;
+        }
+        void display()
+        {
+            cout << "Length = " << len << endl;
+            cout << "Breadth = " << br << endl << endl;
+        }
+};
+int main()
+{
+    rec r1(7, 8);
+    r1.display();
+
+    rec r2(9, 5);
+    r2.display();
+
+    return 0;
+}
